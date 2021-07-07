@@ -1,6 +1,7 @@
 import React from "react";
 import './Header.css';
-// import logo from '../../../images/logo'
+import facebookLogo from '../../../images/f_logo_RGB-Blue_58.png'
+import flashingThunderLogo from '../../../images/logo.jpg'
 
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
         <div className="header">
         <div className="header-top">
           <div className="header-top__logo">
-            <img className="header-logo" src="http://www.pyrospride.com/images/flashingthunder_logo.jpg" alt="Flashing Thunder Logo"></img>
+            <img className="header-logo" src={flashingThunderLogo} alt="Flashing Thunder Logo"></img>
           </div>
           <div className="header-top__navbar">
             <div className="header-top__navigation">
@@ -29,6 +30,11 @@ const Header = () => {
           </div>
           <div className="header-bottom__email">
             katie@flashingthunder.com
+          </div>
+          <div>
+            <a href="https://www.facebook.com/iowaflashingthunder/">
+                <img className="facebook-logo" src={facebookLogo} alt="Facebook Logo"></img>
+            </a>
           </div>
         </div>
       </div>

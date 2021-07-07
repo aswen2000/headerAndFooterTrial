@@ -54,12 +54,14 @@
   }
   
   .header-bottom__email {
-    margin-right: 55px;
+    /* margin-right: 55px; */
+    
     color: #e5e5e5;
   }
   
   .header-bottom__phone {
-    margin-right: 65px;
+    /* margin-right: 65px; */
+    padding-right: 4%;
     color: #e5e5e5;
   }
   
@@ -105,4 +107,9 @@
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;
+  }
+
+  .facebook-logo {
+    width: 25%;
+    height: 25%;
   }
