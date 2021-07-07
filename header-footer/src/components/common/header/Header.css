@@ -21,8 +21,6 @@
   .header-logo {
     margin-top: 10%;
     margin-left: 4%;
-    /* width: 100%;
-    height: 100%; */
   }
   
   .header-top__navbar {
@@ -36,7 +34,7 @@
     border: none;
     height: 2px;
     margin-top: 2px;
-    background-color: black;
+    background-color: #e5e5e5;
   }
   
   .header-top__navigation {
@@ -57,10 +55,12 @@
   
   .header-bottom__email {
     margin-right: 55px;
+    color: #e5e5e5;
   }
   
   .header-bottom__phone {
     margin-right: 65px;
+    color: #e5e5e5;
   }
   
   .header-bottom__bag {
@@ -101,7 +101,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 30px;
-    color: inherit;
+    color: #e5e5e5;
     text-decoration: inherit;
     text-transform: uppercase;
     outline: none;

@@ -8,7 +8,6 @@ const Header = () => {
         <div className="header">
         <div className="header-top">
           <div className="header-top__logo">
-            {/* <a href="/" className="header-logo">LOGO</a> */}
             <img className="header-logo" src="http://www.pyrospride.com/images/flashingthunder_logo.jpg" alt="Flashing Thunder Logo"></img>
           </div>
           <div className="header-top__navbar">
@@ -16,7 +15,7 @@ const Header = () => {
             <div className="navbar">
                 <a href="/" className="navbar-item">Home</a>
                 <a href="/about" className="navbar-item">About</a>
-                <a href="/portfolio" className="navbar-item">Products</a>
+                <a href="/products" className="navbar-item">Products</a>
                 <a href="/shop" className="navbar-item">Thunder Wear</a>
                 <a href="/contact" className="navbar-item">Contact</a>
             </div>
